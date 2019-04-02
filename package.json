@@ -1,0 +1,27 @@
+{
+  "name": "clio-lazy",
+  "version": "1.0.0",
+  "description": "Lazy evaluation for JS and Clio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clio-lang/clio-lazy.git"
+  },
+  "keywords": [
+    "Lazy",
+    "evaluation",
+    "lazy"
+  ],
+  "author": "Pouya Eghbali",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/clio-lang/clio-lazy/issues"
+  },
+  "homepage": "https://github.com/clio-lang/clio-lazy#readme",
+  "devDependencies": {
+    "jest": "^24.6.0"
+  }
+}
