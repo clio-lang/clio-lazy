@@ -10,13 +10,19 @@ In Clio all functions are lazy by default.
 
 You need to use `lazy` to wrap your functions:
 
-```
+```javascript
 const lazy = require("clio-lazy");
-const lazyAdd = lazy((a, b) => a + b);
+
+const lazyAdd      = lazy((a, b) => a + b);
 const myLazyNumber = lazyAdd(2, 3);
-// ^ this will be evaluated only when the value is needed!
+//    ^ this will be evaluated only when the value is needed!
+
 // for example if we do:
 console.log(myLazyNumber);
+
 // or if we do:
 const notLazy = myLazyNumber + 2;
 ```
+
+# License
+Apache 2.0
