@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Lazy evaluation for JS and Clio",
   "main": "index.js",
+  "author": "Pouya Eghbali",
+  "license": "Apache-2.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,6 @@
     "evaluation",
     "lazy"
   ],
-  "author": "Pouya Eghbali",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/clio-lang/clio-lazy/issues"
   },

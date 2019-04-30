@@ -1,5 +1,6 @@
-# clio-lazy
-Lazy evaluation for Clio and JS
+<img src="/docs/cover.png" align="center">
+
+**Lazy Clio** provides lazy evaluation for both **Clio** and **JavaScript** languages.
 
 ## Usage in Clio
 

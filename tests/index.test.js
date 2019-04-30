@@ -1,4 +1,4 @@
-const lazy = require('./index.js');
+const lazy = require('../index.js');
 
 const lazyAdd = lazy((a, b) => a + b);
 const lazyDict = lazy((dict) => dict);
