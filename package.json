@@ -1,22 +1,25 @@
 {
   "name": "clio-lazy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lazy evaluation for JS and Clio",
   "main": "index.js",
+  "author": "Pouya Eghbali",
+  "license": "Apache-2.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clio-lang/clio-lazy.git"
   },
   "keywords": [
-    "Lazy",
     "evaluation",
-    "lazy"
+    "lazy",
+    "functional",
+    "functional programming",
+    "lazy evaluation",
+    "lazy javascript"
   ],
-  "author": "Pouya Eghbali",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/clio-lang/clio-lazy/issues"
   },
